@@ -1,0 +1,36 @@
+// HOJA DE ESTILO PARA EL COMPONENTE HIJA
+// HOJA DE ESTILO PARA EL COMPONENTE HIJA
+body {
+  color: grey;
+}
+
+.itempokemon {
+  width: 130px;
+  height: auto;
+  color: white;
+  display: flex;
+  font-family: "Fredoka One", cursive;
+  font-size: 12px;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+
+  .poke-photo {
+    width: 100px;
+  }
+  .tags-list {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    .type-etiqueta {
+      padding: 5px;
+      transform: translateX(-20px);
+    }
+    font-size: 14px;
+  }
+}
