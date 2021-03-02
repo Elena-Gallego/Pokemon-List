@@ -1,11 +1,22 @@
-// HOJA DE ESTILO PARA EL COMPONENTE MADRE
-// HOJA DE ESTILO PARA EL COMPONENTE MADRE
 .pokemonList {
-  width: 100vw;
+  width: 100%;
   height: auto;
-  display: block;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center;
+
+  @media all and (min-width: 650px) {
+    flex-direction: row;
+  }
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+  }
+  li {
+    margin: 10px;
+  }
 }

@@ -9,6 +9,7 @@ class Pokemonlist extends React.Component {
 
     const pokemonItem = pokemon.map((element) => {
       return (
+        
         <li key={element.id}>
           <Itempokemon
             name={element.name}

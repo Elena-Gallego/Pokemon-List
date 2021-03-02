@@ -7,9 +7,9 @@ class Itempokemon extends React.Component {
     const types = this.props.types;
     const poketypes = types.map((type, index) => {
       return (
-        <li className="type-etiqueta" key={index}>
+        <div className="type-etiqueta" key={index}>
           {type.toUpperCase()}
-        </li>
+        </div>
       );
     });
     return (
